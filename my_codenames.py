@@ -206,7 +206,7 @@ while blue_left > 0 and red_left > 0 and not game_over:
 						print("Current Game state: Blue = ", blue_left, " Red = ", red_left)
 						stop = True
 					if guess in black:
-						print("OOPS! You guessed the deadliest word. GAME OVER! RED TEAM WINS")
+						print("OOPS! You guessed the deadliest word. GAME OVER! BLUE TEAM WINS")
 						
 						print_gamescene(all_words, guess, blue, red, neutral, black)
 						print("Current Game state: Blue = ", blue_left, " Red = ", red_left)
@@ -254,7 +254,7 @@ while blue_left > 0 and red_left > 0 and not game_over:
 						print("Current Game state: Blue = ", blue_left, " Red = ", red_left)
 						stop = True
 					if guess in black:
-						print("OOPS! You guessed the deadliest word. GAME OVER! RED TEAM WINS")
+						print("OOPS! You guessed the deadliest word. GAME OVER! BLUE TEAM WINS")
 						print_gamescene(all_words, guess, blue, red, neutral, black)
 						stop = True
 						game_over = True
@@ -307,7 +307,3 @@ while blue_left > 0 and red_left > 0 and not game_over:
 						stop = True
 						game_over = True
 			
-
-
-
-
