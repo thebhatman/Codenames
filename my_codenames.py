@@ -58,6 +58,7 @@ for x in black_word:
 	black.append(x.text)
 	all_words.append(x.text)
 print("\n")
+random.shuffle(all_words)
 k = 0
 for i in range(5):
 	for j in range(5):
@@ -307,3 +308,7 @@ while blue_left > 0 and red_left > 0 and not game_over:
 						stop = True
 						game_over = True
 			
+
+
+
+
